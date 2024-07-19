@@ -1,38 +1,93 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8" />
+
 		<title>產品 - Peter Winchester</title>
+		<link rel="icon" href="轻重边.jpg" type="image/x-icon" />
+
+		<style type="text/css">
+		  a {
+		    color:#ffffff;
+		    text-decoration:none;
+		  }
+		  body {
+		    background:url("ae86.jpeg") no-repeat;
+		    background-size:100%;
+		    background-color:#eeeeee;
+		    color:#ffffff;
+		  }
+    #container {
+      width:100%;
+      height:1600px;
+    }
+    #header {
+      width:auto;
+      /* background-color:#97e9ff; */
+      height:80px;
+      text-align:center;
+    }
+    #menu {
+      height:1420px;
+      float:left;
+      width:80px;
+      /* background-color:#444444; */
+      text-align:center;
+      clear:both;
+    }
+    #sidebar {
+      /* background-color:#fbffb6; */
+      width:300px;
+      height:1420px;
+      float:right;
+    }
+    #bottom {
+      clear:both;
+      height:100px;
+      text-align:center;
+      /* background-color:#ffffff; */
+    }
+    #content_sidebar {
+      top:80px;
+      left:80px;
+      float:left;
+      width:auto;
+      height:1420px;
+      /* background-color:#dddddd; */
+    }
+  
+  
+		</style>
 	</head>
 	<body>
-		<div id="container" style="float:left;width:1440px;height:900px;">
-			<div id="header" style="float:left;text-align:center;background-color:#97e9ff;height:80px">
-				<div id="photo" style="width:80px;float:left">
-					<img src="轻重边.jpg" style="width:80px;float:left">
-				</div>
-				<div id="title" style="width:1440px;">
-					<h1>Peter Winchester 開發的軟件</h1>
-				</div>
+		<div id="container">
+			<div id="header">
+				<img src="轻重边.jpg" style="width:80px;height:80px;float:left" />
+
+				<h1 style="line-height:80px;color:cyan">Peter Winchester 開發的軟件</h1>
 			</div>
-			
-			<div id="menu" style="height:720px;clear:both;float:left;width:80px;background-color:#444444;color:#ffffff;text-align:center">
-				<a href="index.html"><p style="color:#ffffff">首頁</p></a>
-				<a href="resource.html"><p style="color:#ffffff">資源</p></a>
-				<a href="products.html"><p style="color:#ffffff">產品</p></a>
-				<a href="blog.html"><p style="color:#ffffff">博客</p></a>
+			<div id="menu">
+				<p>
+					<a href="index.html">首頁</a>
+				</p>
+				<p>
+					<a href="resource.html">資源</a>
+				</p>
+				<p>
+					<a href="products.html">產品</a>
+				</p>
+				<p>
+					<a href="blog.html">博客</a>
+				</p>
 			</div>
+			<!--<div id="content_sidebar">-->
+			<div id="sidebar">
 			
-			<div id="content" style="float:left;width:960px;height:720px;background-color:#dddddd;">
-				<!-- 在這裏寫頁面內容 -->
-				
 			</div>
-			
-			<div id="sidebar" style="background-color:#fbffb6;width:400px;height:720px;float:right">
-			    
-			</div>
-			
-			<div id="bottom" style="clear:both;height:100px;text-align:center">
-				<hr>
+			<!-- 在這裏寫頁面內容 -->
+			<div id="bottom">
+				<hr />
+
 				<p>Email: wzj_peter@outlook.com</p>
 				<p>網站建設中，會不定時更新。</p>
 			</div>
