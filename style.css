@@ -17,6 +17,7 @@ body {
       /* background-color:#97e9ff; */
       height:80px;
       text-align:center;
+	border-style:solid;
 }
 #menu {
       height:1420px;
@@ -25,12 +26,14 @@ body {
       /* background-color:#444444; */
       text-align:center;
       clear:both;
+	border-style:solid;
 }
 #sidebar {
       /* background-color:#fbffb6; */
       width:200px;
       height:1420px;
       float:right;
+	border-style:solid;
 }
 #bottom {
       clear:both;
